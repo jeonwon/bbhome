@@ -7,7 +7,8 @@ export default function Home() {
       <h1>여기는 page.js파일 위치임.... BoBae</h1>
 
       <p>
-        Instantly deploy your Next.js site to a shareable URL with Vercel.n\
+        Instantly deploy your Next.js site to a shareable URL with Vercel.
+        <br />
         버셀에 올려봅니다
       </p>
     </main>

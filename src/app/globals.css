@@ -1,1 +1,23 @@
-
+#bobae {
+  width: 100px;
+  border: 1px solid blue;
+  border-radius: 5%;
+}
+.mainTitle {
+  text-align: center;
+  font-weight: bold;
+}
+.mainNav {
+  text-align: center;
+}
+.mainNav > a {
+  text-decoration: none;
+  color: blue;
+}
+.divSon {
+  text-align: center;
+}
+.mainBottom {
+  padding: 5px;
+  border-top: 2px solid rgb(242, 91, 207);
+}

@@ -9,12 +9,16 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <body>
-        <h1>vercel에 올라간거 확인 레이아웃 보배사이트</h1>
-        <h3>
-          <Link href="/">메인</Link>
-          <Link href="/about">about</Link>
+        <h1 className="mainTitle">보배가 만들고 있는 사이트</h1>
+        <h3 className="mainNav">
+          <Link href="/">메인 </Link>
+          <Link href="/about">| 상품목록</Link>
         </h3>
-        {children}
+        <div className="divSon">{children}</div>
+        <div className="mainBottom">
+          <p>관리자 : 전보배</p>
+          <img id="bobae" src="/jbobae.png" />
+        </div>
       </body>
     </html>
   );

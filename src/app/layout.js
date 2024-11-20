@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
         <h1>vercel에 올라간거 확인 레이아웃 보배사이트</h1>
         <h3>
           <Link href="/">메인</Link>
+          <Link href="/about">about</Link>
         </h3>
         {children}
       </body>

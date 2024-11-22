@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
     ["/", "메인"],
     ["/photo", "사진"],
     ["/about", "경력"],
-    ["/about", "학력"],
+    ["/degree", "학력"],
   ];
   return (
     <html>

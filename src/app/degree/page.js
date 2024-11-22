@@ -9,7 +9,7 @@ export default function Degree() {
     <div className="ml-8">
       <div className="ml-4 font-bold">학력 사항</div>
       {school.map((a, i) => {
-        return <h4 key={i}>- {a}</h4>;
+        return <div key={i}>- {a}</div>;
       })}
     </div>
   );

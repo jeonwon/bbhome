@@ -8,7 +8,7 @@ export default function About() {
   ];
   return (
     <div className="ml-8">
-      <div className="ml-4 font-bold">경력 사항</div>
+      <div className="ml-4 font-bold text-2xl">경력 사항</div>
       {haves.map((a, i) => {
         return <div key={i}>- {a}</div>;
       })}

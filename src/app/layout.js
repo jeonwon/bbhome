@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
   let menu = [
     ["/", "메인"],
     ["/photo", "사진"],
-    ["/about", "경력"],
+    ["/carrer", "경력"],
     ["/degree", "학력"],
   ];
   return (

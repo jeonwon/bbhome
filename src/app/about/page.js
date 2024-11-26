@@ -10,7 +10,11 @@ export default function About() {
     <div className="ml-8">
       <div className="ml-4 font-bold text-2xl">경력 사항</div>
       {haves.map((a, i) => {
-        return <div key={i}>- {a}</div>;
+        return (
+          <div className="text-xl" key={i}>
+            - {a}
+          </div>
+        );
       })}
     </div>
   );
